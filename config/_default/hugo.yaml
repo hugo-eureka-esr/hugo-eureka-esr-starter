@@ -1,16 +1,13 @@
-baseURL: /
-title: Eureka Demo
+# Modified from the original by Eureka ESR contributors.
+baseURL: 'https://example.org/'
+title: Eureka ESR Starter
 
-# Uncomment when not installing with Hugo Modules
-# theme: eureka
-# Comment when not installing with Hugo Modules
-theme: wangchucheng.com/hugo-eureka
-# If you cannot access the Github mirror, you can also use the Gitee mirror: gitee.com/wangchucheng/hugo-eureka
+theme: github.com/hugo-eureka-esr/hugo-eureka-esr
+# If you cannot access the Github mirror, please let us know at https://github.com/orgs/hugo-eureka-esr/discussions/15
 
-paginate: 3
+pagination.pagerSize: 3
 copyright: >
-  &copy; 2021 <a href="https://www.wangchucheng.com/">WANG Chucheng</a> and <a
-  href="https://www.ruiqima.com/">MA Ruiqi</a>
+  &copy; 2025 <a href="https://example.org/">Your name</a>
 enableEmoji: true
 enableGitInfo: false
 summaryLength: 75
@@ -20,7 +17,9 @@ hasCJKLanguage: false # Set `true` for Chinese/Japanese/Korean.
 defaultContentLanguageInSubdir: false
 
 # Uncomment for google analytics
-# googleAnalytics: UA-123-45
+# services:
+#   googleAnalytics:
+#     id: G-XXXXXXXXX
 
 markup:
   # Do not modify markup.highlight
